@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: This is our first EC2 Instance we have provisioned using the Cloudformation Template. 
+Resources:
+    MyEC2Instance:
+        Type: AWS::EC2::Instance
+        Properties:
+            ImageId: ami-0912f71e06545ad88
+            InstanceType: t2.micro
+            Tags:
+                - Key: Name
+                  Value: MyEc2Intance
