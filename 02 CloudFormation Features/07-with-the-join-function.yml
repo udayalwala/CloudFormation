@@ -29,6 +29,8 @@ Resources:
                     - !Ref AWS::Region
                     - AMIId
             InstanceType: t2.micro
+            SecurityGroups:
+                - !Ref MySecurityGroup
             Tags:
                 - Key: Name
                   Value: !Join
