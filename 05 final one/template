@@ -15,8 +15,8 @@ Mappings:
       AMI: ami-3bfab942
     ap-southeast-1:
       AMI: ami-e2adf99e
-    ap-southeast-2:
-      AMI: ami-43874721    
+    ap-south-1:
+      AMI: ami-0912f71e06545ad88    
 Resources:
   EC2Instance:
     Type: AWS::EC2::Instance
